@@ -1,0 +1,4 @@
+#Wed Jan 17 01:58:31 CET 2024
+base.0=/home/batoi/unityHub/My project (1)/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
