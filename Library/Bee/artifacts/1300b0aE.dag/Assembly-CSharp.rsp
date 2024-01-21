@@ -359,6 +359,7 @@
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/Follow.cs"
 "Assets/Scripts/Impulse.cs"
+"Assets/Scripts/InterfaceAwake.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/Stone.cs"
 -langversion:9.0

@@ -50,14 +50,6 @@ public class Move : MonoBehaviour
                 audioSource.Play();
             }
 
-            //si el valor absoluto del eje Z del acelerómetro supera un umbral específico (en este caso, 0.6f). 
-            //Si lo hace, y la velocidad vertical es cercana a cero, activa el salto mediante la adición de una fuerza hacia arriba.
-
-        if (Mathf.Abs(Input.acceleration.z) > 0.6f && Mathf.Abs(rb.velocity.y) < 0.01f)
-        {
-            rb.AddForce(Vector3.up * jumpValue, ForceMode.Impulse);
-            audioSource.Play();
-        }
 
         if (transform.position.y <= -2){
         SceneManager.LoadScene("SampleScene");
